@@ -47,8 +47,4 @@ $(function(){
     
     // 调用气泡方法
     bubble();
-    
-    /* xkTool */
-    var chocolate = new xkTool();
-    chocolate.footFish();
     })
