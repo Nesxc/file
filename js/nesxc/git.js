@@ -1,5 +1,5 @@
 
-const calendar = new Vue({
+var calendar = new Vue({
     el: '#calendar',
     data: {
         
@@ -129,7 +129,7 @@ const calendar = new Vue({
     }
 })
 
-let githubapiurl = "https://githubapi.ryanchristian.dev/user/"+calendar.user
+var githubapiurl = "https://githubapi.ryanchristian.dev/user/"+calendar.user
 
 $(function () {
     $.ajax({
